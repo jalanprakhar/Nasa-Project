@@ -1,4 +1,6 @@
 name: NASA Project CI
+env:
+  CI: false
 on:
   push:
     branches: [main]
